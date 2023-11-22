@@ -1,19 +1,22 @@
-﻿// comment
-
-/*
-comment
-comment
+﻿/* 
+Напишите программу котроая на входе принимает целое число N, 
+а на выходе показывает все целые цисла в промежутке от -N до N.
 */
-Console.Clear();
-Console.Write("Введите число");
-int a = Convert.ToInt32(Console.ReadLine());  
-Console.Write("Введите число");
-int b = Convert.ToInt32(Console.ReadLine());  
+// Примеры
+// 4=> -4, -3, -2, -1, 0, 1, 2, 3, 4
+// 2=> -2, -1, 0, 1, 2
 
-if (a == b * b)
-    Console.WriteLine("Yes");
-else 
-    Console.WriteLine("No");
+
+Console.Clear();
+Console.Write("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+int i = n * (-1);
+while (i <= n)  
+{
+    Console.Write(i + " ");
+    i ++;
+}
 
 
 
