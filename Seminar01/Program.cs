@@ -1,19 +1,17 @@
-﻿// comment
+﻿// Напишите программу, которая принимает на вход трёхзначное число
+// и на выходе покахывает сумму первой и последней цифры этого числа.
+// 456 => 10
+// 762 => 9
+// 918 => 17
 
-/*
-comment
-comment
-*/
 Console.Clear();
-Console.Write("Введите число");
-int a = Convert.ToInt32(Console.ReadLine());  
-Console.Write("Введите число");
-int b = Convert.ToInt32(Console.ReadLine());  
+Console.Write("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int n1 = n / 100;
+int n3 = n % 10;
+Console.WriteLine(n1 + n3);
 
-if (a == b * b)
-    Console.WriteLine("Yes");
-else 
-    Console.WriteLine("No");
+
 
 
 
