@@ -54,3 +54,46 @@
 // {
 //     Console.Write($"Число `{number}` нечётное");
 // }
+
+
+// Дз №4
+
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// int i = 1;
+// while (i <= number)  
+// {
+//     if(number % 2 <= 0)
+//     {
+//         Console.Write(number + "\t");
+//         number = number - 2;
+        
+//     }
+//     else 
+//     {
+//         number = number - 1;
+//     }
+// }
+
+
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// int i = 1;
+// while (i <= number)  
+// {
+//     if(i % 2 <= 0)
+//     {
+//         Console.Write(i + "\t");
+//         i = i +2;
+//     }
+//     else 
+//     {
+//         i ++;;
+//     }
+// }
+
+
