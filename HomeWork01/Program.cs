@@ -22,6 +22,8 @@
 // }
 
 
+// Дз №2
+
 // Console.Clear();
 // Console.Write("Введите число: ");
 // int a = Convert.ToInt32(Console.ReadLine());
@@ -31,7 +33,6 @@
 // int c = Convert.ToInt32(Console.ReadLine());
  
 // int max = a;
-
 // if(a > max) max = a;
 // if(b > max) max = b;
 // if(c > max) max = c;
@@ -39,8 +40,17 @@
 // return max; Вместо консоли для автотестов
 
 
+// Дз №3
 
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
 
-
-
- 
+// if (number % 2 <= 0)
+// {
+//     Console.Write($"Число `{number}` чётное");
+// }
+// if (number % 2 > 0) 
+// {
+//     Console.Write($"Число `{number}` нечётное");
+// }
